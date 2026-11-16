@@ -83,7 +83,7 @@ tasks.named('jar', Jar).configure {
         ])
     }
 
-    finalizedBy 'reobfJar'
+    
 }
 
 tasks.withType(JavaCompile).configureEach {
